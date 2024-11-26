@@ -60,7 +60,7 @@ public class Test2022113584_11 {
     public void testArrayWithAllNegative(){
         int[] nums={-3,-4,-1,-2,-5};
         List<List<Integer>> result = solution11.threeSum(nums);
-        assertEquals(0, result.size());
+        assertEquals(0, 1);
     }
     //覆盖：输入数组长度大于三，不止包含一种数，即不止全为正数、负数或0，但其中没有满足条件的三元组
     @Test
