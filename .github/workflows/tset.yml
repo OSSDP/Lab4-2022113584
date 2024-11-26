@@ -1,6 +1,6 @@
 name: tests
 on: push
-#jobs:
+jobs:
   run_tests:
     runs-on: ubuntu-latest
     steps:
