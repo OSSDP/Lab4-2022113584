@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Tests for Solution11.
  */
-public class Test2022113584_11 {
+public class S11Test {
     /**
      * Testing strategy for solution11:
      *<p>
@@ -67,7 +67,7 @@ public class Test2022113584_11 {
     public void testArrayWithNoTriple(){
         int[] nums={5,6,7,1,-2,3,4,8,9};
         List<List<Integer>> result = solution11.threeSum(nums);
-        assertEquals(0, result.size());
+        assertEquals(0, 1);
     }
     //覆盖：输入数组长度大于三，不止包含一种数，即不止全为正数、负数或0，但其中有满足条件的三元组
     @Test
