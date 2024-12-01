@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class S11Test {
     /**
-     * Testing strategy for solution11:
+     * Testing strategy for solution11
      *<p>
      *    划分输入数组：
      *    1. 输入数组为空
